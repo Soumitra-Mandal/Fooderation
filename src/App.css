@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body, html{
+  margin:0;
+
+}
+#navbar a{
+  text-decoration: none;
+  color: #eee;
+}
+
+.header{
+  background-color: #c50938;
+  margin: 0;
+  padding: 20px;
+
+}
+
+.header h1{
+  margin: 0;
+  color: #eee;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+
+#navbar{
+position: absolute;
+right:5%;
+top:2%;
+font-family: Lato, sans-serif;
+}
+ #navbar li{
+  display: inline;
+  color:#eee;
+  margin-left: 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
