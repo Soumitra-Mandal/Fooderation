@@ -7,10 +7,7 @@ body, html{
   margin:0;
 
 }
-#navbar a{
-  text-decoration: none;
-  color: #fff;
-}
+
 
 .header{
   /*background-color: #c50938;*/
@@ -38,10 +35,24 @@ right:5%;
 top:2%;
 font-family: Lato, sans-serif;
 }
- #navbar li{
+
+#navbar a{
+  text-decoration: none;
+  color: #fff;
+  padding: 7px;
+  transition-duration: 0.3s;
+  border-radius: 3px;
+}
+
+#navbar li{
   display: inline;
-  color:#eee;
-  margin-left: 35px;
+  margin-left: 32px;
   font-size: 20px;
   cursor: pointer;
+}
+
+
+#navbar li a:hover{
+  background-color: #fff;
+  color:#f80909;
 }

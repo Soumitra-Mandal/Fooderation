@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+#contribute
+{
+    margin-top: 40px;
+    color:#f80909;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#form
+{
+    font-family: 'Basic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: #fff;
+    color:#f80909;
+    position: absolute;
+    left:37.5%;
+    width: 25%;
+    height: 43%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    border: solid 5px #565656;
+    box-shadow: 3px 3px 5px 0.5px #aaa, -5px -5px 5px 0.5px #fff,
+    3px 3px 5px 0.5px #aaa inset, -5px -5px 5px 0.5px #fff inset;}
+
+input
+{
+    margin:15px;
+    font-family: 'Basic', sans-serif;
+
+}
+label{
+    margin-left: 15px;
+}
+#name, #email, #dish{
+    color: #232323;
+    border: none;
+    border-bottom: solid 1px #f80909;
+    outline: none;
+    width:90%;
+    padding: 3px;
+    font-size: 18px;
+
+}
+
+#submit{
+    color: white;
+    background-color: #f80909;
+    border:none;
+    padding: 8px 15px 8px 15px;
+    border-radius:4%;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+#food1{
+position: absolute;
+left:51%;
+top:55%;
+height:130px;
+
+}
