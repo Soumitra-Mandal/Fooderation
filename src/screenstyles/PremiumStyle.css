@@ -8,7 +8,7 @@
     font-size: 30px;
 }
 
-#pre p{
+#pre #offer{
     position: absolute;
     width: 50%;
     left:25%;
@@ -18,3 +18,30 @@
     font-family: 'Ubuntu';
     text-align: center;
 }
+
+#c1{
+    position: absolute;
+    left:20%;
+    top:240px;
+}
+
+#c2{
+    position: absolute;
+    left:calc(40% - 60px);
+    top:240px;
+
+}
+
+#c3{
+    position: absolute;
+    right:calc(40% - 60px);
+    top:240px;
+}
+
+#c4{
+    position: absolute;
+    right:20%;
+    top:240px;
+}
+
+
