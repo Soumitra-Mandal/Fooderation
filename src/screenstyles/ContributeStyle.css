@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+
 #Contri{
-    overflow-y: hidden;
+  scrollbar-width: none;
 }
+
+
 #contribute
 {
     width: 30%;
-    position: relative;
+    position: absolute;
+    top:12%;
     left:34.8%;
     background-color: #fff;
     padding: 5px 0 5px 0;
@@ -27,6 +31,7 @@
     background-color: #fff;
     color:#f80909;
     position: absolute;
+    top:25%;
     left:37.3%;
     width: 25%;
     height: 43%;
@@ -34,8 +39,8 @@
     padding-bottom: 20px;
     padding-left: 0px;
     border: solid 5px #565656;
-    box-shadow: 3px 3px 5px 0.5px #aaa, -4px -4px 5px 0.5px #fff,
-    3px 3px 5px 0.5px #aaa inset, -4px -4px 5px 0.5px #fff inset;}
+    box-shadow: 3px 3px 5px 0.5px #aaa, -2px -2px 5px 0.5px #fff,
+    3px 3px 5px 0.5px #aaa inset, -2px -2px 5px 0.5px #fff inset;}
 
 input
 {

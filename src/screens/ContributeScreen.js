@@ -27,20 +27,20 @@ function Contribute() {
   </form>
   <img id='food1' src={image} alt="Icon"/>
 
-<div class='imgrow'>
-  <div class = 'imgcol'>
+<div className='imgrow'>
+  <div className = 'imgcol'>
   <img id='f1' src={f1} alt="f1"/>
   <img id='f2' src={f2} alt="f2"/> 
   <img id='f3' src={f3} alt="f3"/>
   </div>
-  <div class = 'imgcol'>
+  <div className = 'imgcol'>
   <img id='f4' src={f4} alt="f4"/>
   <img id='f5' src={f5} alt="f5"/>
   <img id='f6' src={f6} alt="f6"/>
   <img id='f11' src={f11} alt="f11"/>
 
   </div>
-  <div class = 'imgcol'>
+  <div className = 'imgcol'>
   <img id='f7' src={f7} alt="f7"/>
   <img id='f8' src={f8} alt="f8"/>
   <img id='f9' src={f9} alt="f9"/>

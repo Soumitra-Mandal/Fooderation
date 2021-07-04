@@ -12,9 +12,11 @@ body, html{
 .header{
   /*background-color: #c50938;*/
   background: #fe8c00;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f86300, #f80909);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f86300, #f80909); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to right, #f86300, #f80909);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f86300, #f80909); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  width: 100%;
+  top:0;
   margin: 0;
   padding: 20px;
 
@@ -32,7 +34,7 @@ background: linear-gradient(to right, #f86300, #f80909); /* W3C, IE 10+/ Edge, F
 #navbar{
 position: absolute;
 right:5%;
-top:2%;
+top:16%;
 font-family: Lato, sans-serif;
 }
 
@@ -55,4 +57,43 @@ font-family: Lato, sans-serif;
 #navbar li a:hover{
   background-color: #fff;
   color:#f80909;
+}
+
+.footer{
+  font-family: 'Lato';
+  height: 70px;
+  width: 100%;
+  background-color:#232323;
+  position: fixed;
+  bottom: 0;
+  color:white;
+}
+
+#copyright{
+  position: absolute;
+  bottom: 7px;
+  right: 10px;
+}
+#sourcecode{
+  position: absolute;
+  bottom:15px;
+  left:14px;
+}
+
+#sourcecode a{
+  text-decoration: none;
+  color: white;
+}
+
+#Email {
+  font-size: 16px;
+  position: absolute;
+  bottom:33px;
+  left:14px;
+}
+
+#Email a{
+  text-decoration: none;
+  color: white;
+
 }

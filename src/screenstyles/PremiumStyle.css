@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 #Premium{
+    padding-top: 90px;
+    font-family: 'Ubuntu';
     text-align: center;
-    color: blueviolet;
+    color: #8a8a8a;
+    font-size: 30px;
+}
+
+#pre p{
+    position: absolute;
+    width: 50%;
+    left:25%;
+    font-size: 18px;
+    margin-top: 0px;
+    top:160px;
+    font-family: 'Ubuntu';
+    text-align: center;
 }

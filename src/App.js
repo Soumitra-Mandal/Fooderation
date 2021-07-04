@@ -19,6 +19,11 @@ function App() {
        <li><Link to='/contribute'>Contribute</Link></li>
        </ul>
       </header>
+      <footer className='footer'>
+<span id='copyright'>&copy; 2021 Soumitra Mandal</span>
+<span id='Email'><a href='mailto:(soumitramandal@protonmail.com)'>Email: soumitramandal@protonmail.com</a></span>
+<span id ='sourcecode'><a href='https://github.com/Soumitra-Mandal/Fooderation'>Source Code : https://github.com/Soumitra-Mandal/Fooderation</a></span>
+      </footer>
     </div>
 
     <Switch>
